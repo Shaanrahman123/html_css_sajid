@@ -1,0 +1,54 @@
+/* these are 4 stages of link(anchor tag a)  */
+
+/* a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:active {
+    color: aqua;
+    background-color: black;
+} */
+
+
+/* to style button uncomment this code  */
+
+
+/* a {
+    background-color: crimson;
+    color: #111;
+    padding: 10px 27px 10px 27px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 20px;
+    border: 2px solid crimson;
+}
+
+a:hover {
+    background-color: transparent;
+    color: crimson;
+    border: 2px solid crimson;
+    font-size: 40px;
+} */
+
+img {
+    /* float: right; */
+    /*(you cant use text align property here you only have float property) */
+}
+
+h1 {
+    /* float: right; */
+    /* (you can use this ) */
+    /* text-align: right; */
+    /*(you can use this as well )*/
+}
