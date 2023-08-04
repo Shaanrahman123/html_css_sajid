@@ -1,0 +1,22 @@
+ /* &&&&&&&&&&&&&&&&&&&&&&  table style ^&^7&&&&&&&&&&&&&&&&&&&&& */
+
+
+ table,
+ th,
+ td {
+     border: 1px solid;
+     padding: 10px;
+     border-collapse: collapse;
+ }
+
+ tr:nth-child(even) {
+     background-color: gainsboro;
+ }
+
+ td:nth-child(even) {
+     background-color: aqua;
+ }
+
+
+
+ /* &&&&&&&&&&&&&&&&&&&&&&  table style ^&^7&&&&&&&&&&&&&&&&&&&&& */

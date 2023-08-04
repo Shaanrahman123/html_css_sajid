@@ -1,0 +1,38 @@
+ /* body {
+     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgM-eH5y2SF1ovcPImSPSNh2QAhE6vOKr88LN5mWRvGtezVJ_swQsIkXYjESyoWhW2fJE&usqp=CAU");
+     height: 100px;
+     background-repeat: repeat-y;
+     background-size: fill;
+
+ } */
+
+
+ /* table {
+     border: 1px solid;
+
+     border-collapse: collapse;
+
+ }
+
+ th {
+     border: 1px solid;
+     padding: 10px 0px;
+
+ }
+
+ td {
+     border: 1px solid;
+     text-align: center;
+     padding: 10px 0px;
+ } */
+
+ table,
+ th,
+ td {
+     border: 1px solid;
+ }
+
+ table {
+     border-spacing: 20px;
+     /* padding: 20px; */
+ }
