@@ -12,7 +12,7 @@ a:hover {
 
 a:visited {
     color: green;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:active {
@@ -24,7 +24,7 @@ a:active {
 /* to style button uncomment this code  */
 
 
-/* a {
+a {
     background-color: crimson;
     color: #111;
     padding: 10px 27px 10px 27px;
@@ -34,12 +34,16 @@ a:active {
     border: 2px solid crimson;
 }
 
-a:hover {
+/* a:hover {
     background-color: transparent;
     color: crimson;
     border: 2px solid crimson;
-    font-size: 40px;
 } */
+
+a:hover {
+    color: crimson;
+    background-color: white;
+}
 
 img {
     /* float: right; */

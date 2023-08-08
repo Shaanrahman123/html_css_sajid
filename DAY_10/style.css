@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+}
+
+/* this is header area   */
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+}
+
+header h1 {
+    font-size: 49px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 20px;
+}
+
+
+/* side nav area  */
+
+nav {
+    float: left;
+    background-color: darkblue;
+    padding: 10px;
+    height: 350px;
+    width: 20%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav ul li {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: darkcyan;
+
+}
+
+/* main area  */
+
+article {
+    padding-left: 20px;
+    float: right;
+    width: 75%;
+}
+
+article div {
+    height: 200px;
+    width: 200px;
+}
+
+article h1 {
+    text-align: left;
+
+}
+
+article p {
+    text-align: left;
+}
+
+
+article div img {
+    width: 100%;
+}
+
+div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    background-color: aqua;
+    padding: 18px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width:799px) {
+    article {
+        padding-left: 20px;
+        float: right;
+        width: 72%;
+    }
+}
+
+@media screen and (max-width:533px) {
+    nav {
+
+        height: 371px;
+
+    }
+}
+
+@media screen and (max-width:499px) {
+    article div img {
+        width: 76%;
+    }
+
+    article {
+        padding-left: 20px;
+        float: right;
+        width: 66%;
+    }
+}
