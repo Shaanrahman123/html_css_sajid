@@ -1,0 +1,103 @@
+/* descendent selector  */
+
+/* .box p {
+    color: orange;
+    font-weight: 800;
+} */
+
+/* child selector  */
+
+/* .box2>p {
+    color: orange;
+    font-weight: 800;
+} */
+
+
+/* adjecent sibling selector  */
+
+/* .box3+p {
+    color: orange;
+    font-weight: 800;
+} */
+
+/* general sibling selector */
+
+/* .box4~p {
+    color: orange;
+    font-weight: 800;
+} */
+
+
+
+/* pseudo class selector  */
+
+/* .para {
+    color: tomato;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.para:hover {
+    color: black;
+    background-color: tomato;
+} */
+
+/* .para:last-child {
+    color: white;
+}
+
+.para:last-child:hover {
+    color: greenyellow;
+} */
+
+/* .para:nth-child(3) {
+    color: orange;
+} */
+
+/* .para:nth-child(odd) {
+    color: palegreen;
+} */
+
+
+/* pseudo element selector  */
+
+/* p::first-line {
+    color: red;
+} */
+/* P::first-letter {
+    text-transform: uppercase;
+    color: red;
+    font-weight: 800;
+} */
+
+
+/* p::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    background-color: red;
+    bottom: 0;
+} */
+
+/* ::selection {
+    background-color: black;
+    color: white;
+} */
+
+
+
+.box {
+    background-color: red;
+    color: white;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+
+    /* opacity: 0.8; */
+    /* background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"); */
+}
