@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* for background properties */
+
+body {
+    /* background-image: url("https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/uBEYI93uReLt091i15rF.png?auto=format"); */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+    /* background-position: top right; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background: url("https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/uBEYI93uReLt091i15rF.png?auto=format") no-repeat center fixed #111; */
+}
+
+
+/* for border properties  */
+
+h1 {
+    margin: 10px;
+}
+
+.solid {
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.dashed {
+    border: 2px dashed orange;
+    border-radius: 10px;
+}
+
+.dotted {
+    border: 2px dotted purple;
+    border-radius: 10px;
+}
+
+.double {
+    border: 2px double palevioletred;
+}
+
+.groove {
+    border: 2px groove darkseagreen;
+}
+
+.none {
+    border: none;
+}
+
+.ridge {
+    border: 2px ridge black;
+}
+
+.inset {
+    border: 2px inset magenta;
+}
+
+.outset {
+    border: 2px outset red;
+}
+
+.multi {
+    border-width: 2px;
+    border-style: dotted double groove inset;
+}
+
+.border-top {
+    border-top: 3px solid;
+}
+
+.border-right {
+    border-right: 3px solid;
+}
+
+.border-bottom {
+    border-bottom: 3px solid;
+}
+
+.border-left {
+    border-left: 3px solid;
+}
