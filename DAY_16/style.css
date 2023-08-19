@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+    /* max-width: 400px; */
+    /* min-width: 400px; */
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border: 2px double blue;
+    /* margin-left: 100px; */
+
+}
+
+/* div p {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+
+/* div p {
+    width: 30px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding: 10px 10px 10px 10px;
+    padding: 10px 20px;
+} */
+
+
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin: 10px;
+    border: 2px solid white;
+    outline: 2px solid green;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: red;
+
+    /* to gap between border and outline we use outline-offset: ; */
+    outline-offset: 4px;
+}
+
+button:hover {
+    outline-offset: 0px;
+    border-color: yellow;
+}
+
+
+p {
+    color: red;
+    background-color: black;
+    text-align: left;
+    /* text-align-last: center; */
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-indent: 30px; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 10px; */
+    /* line-height: 20px; */
+
+    /* if we dont want our line to come in another row then we use white space property */
+    /* white-space: nowrap; */
+}
