@@ -1,0 +1,88 @@
+/* import the text from google fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&display=swap');
+
+
+
+
+.text {
+    /* text-shadow: 2px 2px yellow; */
+    /* text-shadow: 2px 2px 2px yellow; */
+    /* color: white; */
+    /* text-shadow: 2px 2px 5px red; */
+
+    /* text-shadow: 1px -3px 2px orange, 1px -7px 3px red, 1px -11px 4px purple; */
+
+}
+
+.text2 {
+    /* font-family: 'Roboto Slab', serif; */
+}
+
+
+/* for icon design  */
+
+
+/* .icon-box i {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon-box i:hover {
+    color: blue;
+    background-color: #ddd;
+} */
+
+
+
+
+/* for button desing  */
+
+/* .btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid red;
+    outline: 2px solid red;
+    outline-offset: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.6s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    outline: 2px solid red;
+    outline-offset: -2px;
+    border-radius: 8px;
+}
+
+.btn:active {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid red;
+    outline: 2px solid red;
+} */
+
+div ol {
+    background-color: purple;
+    padding: 20px;
+}
+
+div ol li {
+    color: white;
+    font-size: 10px;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+
+}
+
+div ol li:nth-child(1) {
+    border-top: 1px solid black;
+}
