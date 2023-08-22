@@ -1,0 +1,66 @@
+/* .user-table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.user-table,
+.user-table th,
+.user-table td {
+    border: 1px solid #999;
+
+}
+
+
+.user-table th {
+    padding: 10px 2px;
+    background-color: tomato;
+}
+
+.user-table td {
+    text-align: center;
+    height: 40px;
+    vertical-align: top;
+}
+
+.user-table tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.user-table tbody tr:hover {
+    background-color: tomato;
+} */
+
+
+
+/* .card {
+    background-color: lightseagreen;
+    display: inline-block;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.card .card-content img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card .card-content h2 {
+    text-align: center;
+    color: white;
+}
+
+.card .card-content p {
+    color: white;
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+.card .card-content:nth-child(2) {
+    display: none;
+
+} */
+
+li {
+    display: inline;
+}
