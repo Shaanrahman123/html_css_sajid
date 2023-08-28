@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    height: 100px;
+    width: 300px;
+    background-color: orange;
+
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
+    white-space: nowrap;
+    /* overflow: auto; */
+}
+
+
+ul {
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    /* text-align: center; */
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px 5px;
+    border-bottom: 2px solid black;
+
+}
+
+.active {
+    background-color: purple;
+}
+
+li a:hover:not(.active) {
+    color: purple;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid purple;
+}
