@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ul {
+    background-color: black;
+    color: white;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px 5px;
+    border-bottom: 2px solid black;
+
+}
+
+.active {
+    background-color: purple;
+}
+
+li a:hover:not(.active) {
+    color: purple;
+    border-bottom: 2px solid purple;
+} */
+
+
+
+
+/* style for dropdown  */
+
+/* .dropdown {
+    position: relative;
+}
+
+.dropdown-box {
+    display: none;
+    position: absolute;
+
+}
+
+.dropdown:hover .dropdown-box {
+    display: block;
+}
+
+
+.dropdown-box ul li {
+    background-color: purple;
+    width: 100%;
+    padding: 6px 17px;
+    border-bottom: 1px solid white;
+} */
+
+
+
+
+/* form design starts here  */
+
+
+.my-form {
+    background-color: black;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+.my-form label {
+    display: block;
+    color: pink;
+    margin: 10px 0px;
+}
+
+.my-form input,
+.my-form select {
+    padding: 10px 5px;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid purple;
+    border-radius: 10px;
+    color: pink;
+}
+
+.my-form ::placeholder {
+    color: rgba(255, 192, 203, 0.582);
+}
+
+
+input[type="submit"] {
+    margin-top: 10px;
+    background-color: purple;
+    border: 2px solid purple;
+}
+
+input[type="submit"]:hover {
+    background-color: transparent;
+}
+
+body {
+    background: purple;
+}
