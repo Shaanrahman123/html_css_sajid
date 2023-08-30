@@ -89,6 +89,21 @@ li a:hover:not(.active) {
     color: pink;
 }
 
+
+/* for select style  */
+
+option {
+    display: block;
+    background-color: purple;
+    font-size: 16px;
+    padding: 10px !important;
+    margin: 10px;
+}
+
+
+/* for select style  */
+
+
 .my-form ::placeholder {
     color: rgba(255, 192, 203, 0.582);
 }
@@ -105,5 +120,5 @@ input[type="submit"]:hover {
 }
 
 body {
-    background: purple;
+    background: url(https://filmyfool.com/wp-content/uploads/2019/04/avengersendgame-blogroll-2-1555518573008_1280w.jpg) no-repeat center;
 }
