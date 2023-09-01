@@ -1,0 +1,133 @@
+/* this is for translate  */
+
+.translate {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    margin: 20px auto;
+}
+
+.translate:hover {
+    transform: translate(10px, 20px);
+}
+
+
+
+/* this is for rotate  */
+
+.rotate {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    margin: 20px auto;
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+/* this is for scaleX  */
+
+.scaleX {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    margin: 20px auto;
+}
+
+.scaleX:hover {
+    transform: scaleX(1.2);
+}
+
+
+/* this is for scaleY  */
+
+.scaleY {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    margin: 20px auto;
+}
+
+.scaleY:hover {
+    transform: scaleY(1.2);
+}
+
+
+/* this is for scale  */
+
+.scale {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    margin: 20px auto;
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+
+/* this is for skewX  */
+
+.skewX {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    margin: 20px auto;
+}
+
+.skewX:hover {
+    transform: skewX(-20deg);
+}
+
+
+/* this is for skewY  */
+
+.skewY {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    margin: 20px auto;
+}
+
+.skewY:hover {
+    transform: skewY(20deg);
+}
+
+
+/* this is for skew  */
+
+.skew {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    margin: 20px auto;
+}
+
+.skew:hover {
+    transform: skew(20deg, 20deg);
+}
+
+
+/* this is for matrix  */
+
+.matrix {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    margin: 20px auto;
+}
+
+.matrix:hover {
+    transform: matrix(1, 1, 0, 1, 1, 1);
+}

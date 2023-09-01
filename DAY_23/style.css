@@ -1,0 +1,77 @@
+.linear-gradient {
+    width: 600px;
+    height: 300px;
+    /* background-image: linear-gradient(purple, pink); */
+    /* background-image: linear-gradient(to right, purple, pink); */
+    /* background-image: linear-gradient(to top left, purple, pink); */
+    /* background-image: linear-gradient(90deg, purple, pink); */
+    /* background-image: linear-gradient(to right, blue, red, purple, orange, green, pink, black); */
+    /* background-image: linear-gradient(to right, rgba(128, 0, 128, 1), rgba(128, 0, 128, 0.4)); */
+}
+
+
+/* .radial-gradient {
+    width: 600px;
+    height: 300px;
+    background-image: radial-gradient(circle, purple, pink, black, orange, green, yellow, cyan, magenta, brown, tomato, darkseagreen);
+} */
+
+
+/* .conic-gradient {
+    width: 600px;
+    height: 300px;
+    background-image: conic-gradient(red, brown, pink, orange, green, violet, red, red);
+} */
+
+.text {
+    color: white;
+    text-shadow: 2px 2px 5px orange,
+        5px 0px 5px green;
+}
+
+
+.box {
+    width: 200px;
+    height: 80px;
+    margin: 0px auto 0px auto;
+    background-color: red;
+    /* box-shadow: 5px 5px 10px 20px; */
+    box-shadow: 0px 0px 7px 7px inset;
+    position: relative;
+    border-radius: 10px;
+}
+
+.inner-box {
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 33px 5px;
+    border-radius: 10px;
+}
+
+/* p {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.p1 {
+    width: 100px;
+    background-color: orange;
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.p2 {
+    width: 100px;
+    background-color: orange;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
