@@ -1,0 +1,231 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid green;
+}
+
+/* 3d transform example */
+
+.innerbox {
+    height: 200px;
+    width: 100px;
+    margin: 50px auto;
+    background-color: purple;
+    /* transform: rotateX(100deg); */
+    /* transform: rotateY(45deg); */
+    /* transform: rotateZ(360deg); */
+}
+
+
+/* button example  */
+
+
+/* button {
+    width: 200px;
+    padding: 15px 0;
+    border: 2px solid green;
+    background-color: green;
+    border-radius: 10px;
+    outline: 2px solid green;
+    outline-offset: 6px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+button:hover {
+    outline-offset: 1px;
+    background-color: white;
+    color: green;
+
+} */
+
+
+/* transition timing function example  */
+
+/* .container div {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    border: 1px solid black;
+    margin: 20px;
+
+    transition: all 2s;
+
+}
+
+.container div:hover {
+    width: 400px;
+}
+
+.box1 {
+    transition-timing-function: linear;
+}
+
+.box2 {
+    transition-timing-function: ease;
+}
+
+.box3 {
+    transition-timing-function: ease-in;
+}
+
+.box4 {
+    transition-timing-function: ease-in-out;
+}
+
+.box5 {
+    transition-timing-function: ease-out;
+} */
+
+
+
+/* delay example  */
+
+/* .delay {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid orange;
+    transition: width 2s;
+    transition-delay: 4s;
+}
+
+.delay:hover {
+    width: 500px;
+} */
+
+.trans {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid orange;
+
+
+    /* normal way of writing  */
+
+    /* transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 2s; */
+
+    /* shorthand property  */
+    transition: width 10s linear 2s;
+}
+
+.trans:hover {
+    width: 400px;
+}
+
+
+
+/* transform + transition  */
+
+/* 
+.tt {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid orange;
+    position: relative;
+    transition: all 2s;
+}
+
+.tt:hover {
+    margin-left: 100px;
+    transform: rotate(180deg);
+    border-radius: 50%;
+} */
+
+
+
+
+/* animation in css  */
+
+
+
+
+/* .fromTo {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+
+}
+
+@keyframes changeColor {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: orange;
+    }
+} */
+
+
+
+
+/* animated box  */
+
+
+
+.animatebox {
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+    position: relative;
+    /* animation-name: animatedBox;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+
+
+
+    /* shorthad property for animation  */
+
+    animation: animatedBox 2s ease-in 2s infinite reverse;
+
+}
+
+
+@keyframes animatedBox {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 0;
+        left: 100px;
+        background-color: orange;
+        border-radius: 50%;
+    }
+
+    50% {
+        top: 100px;
+        left: 100px;
+        background-color: magenta;
+    }
+
+    75% {
+        top: 100px;
+        left: 0;
+        background-color: green;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        /* background-color:; */
+    }
+}
