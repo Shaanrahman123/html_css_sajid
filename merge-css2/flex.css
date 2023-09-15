@@ -1,0 +1,103 @@
+/* order property design part */
+
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>div {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+} */
+
+
+
+/* flex-grow property  */
+
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+
+.container>div {
+    background-color: pink;
+    height: 70px;
+    margin: 20px;
+}
+
+.box1 {
+    flex-grow: 1;
+}
+
+.box2 {
+    flex-grow: 1;
+}
+
+.box3 {
+    flex-grow: 10;
+} */
+
+
+
+/* flex shrink property  */
+
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+
+.container>div {
+    background-color: pink;
+    height: 70px;
+    width: 400px;
+    margin: 20px;
+}
+
+.box1 {
+    flex-shrink: 0;
+} */
+
+
+
+/* flex basis property  */
+
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+
+.container>div {
+    background-color: pink;
+    height: 70px;
+    width: 200px;
+    margin: 20px;
+}
+
+.box1 {
+    flex-basis: 300px;
+} */

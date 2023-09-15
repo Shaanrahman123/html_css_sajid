@@ -1,0 +1,73 @@
+.navbar-area {
+    background-color: red !important;
+    color: white !important;
+}
+
+.navbar-collapse ul li a {
+    color: white;
+}
+
+.navbar-collapse ul li a:hover {
+    color: green !important;
+}
+
+.navbar-collapse ul .active {
+    color: green !important;
+}
+
+.carousel-inner {
+    height: 90vh;
+}
+
+
+.carousel-caption {
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+
+.carousel-indicators [data-bs-target] {
+
+
+
+    opacity: 0.9;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
+
+.carousel-caption h5 {
+    font-size: 100px;
+}
+
+
+
+.heading-text {
+    margin-top: 50px;
+
+}
+
+.heading-text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+}
+
+.heading-text h2::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background-color: orange;
+    bottom: -15px;
+
+    left: 50%;
+    transform: translateX(-50%);
+}

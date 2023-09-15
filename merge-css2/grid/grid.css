@@ -1,0 +1,90 @@
+/* basic grid design starts  */
+
+.container {
+    background-color: purple;
+    padding: 20px;
+    display: grid;
+    /* to define how many column we want  */
+    grid-template-columns: auto auto auto;
+    /* to add column gap  */
+    /* column-gap: 20px; */
+    /* to add row gap  */
+    /* row-gap: 20px; */
+    /* shorthand property for row gap and column gap  */
+    /* gap: 20px 40px; */
+
+}
+
+.box1 {
+    background-color: pink;
+    padding: 15px;
+    border: 1px dotted purple;
+    font-size: 20px;
+}
+
+/* basic grid design ends  */
+
+.container2 {
+    background-color: purple;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+
+
+}
+
+
+.container2 div {
+    background-color: pink;
+    padding: 15px;
+    border: 1px dotted purple;
+    font-size: 20px;
+}
+
+
+.grid1 {
+    /* starts from line 1 of column */
+    /* grid-column-start: 1; */
+    /* ends at line 3 of column */
+    /* grid-column-end: 3; */
+
+    /* starts from line 1 of rows  */
+    /* grid-row-start: 2; */
+    /* ends at line 3 of rows  */
+    /* grid-row-end: 4; */
+
+    /* shorthand for grid-row-start, grid-column-start,grid-row-end, grid-column-end  ; */
+    /* grid-row-start / grid-column-start / grid-row-end: / grid-column-end: ;; */
+
+    grid-area: 2/1/4/3;
+
+}
+
+/* grid template  design starts  */
+
+
+
+
+/* grid template rows  style area starts  */
+
+.container3 {
+    background-color: purple;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 100px 160px;
+    gap: 20px;
+
+
+}
+
+
+.container3 div {
+    background-color: pink;
+    padding: 15px;
+    border: 1px dotted purple;
+    font-size: 20px;
+}
+
+/* grid template rows  style area ends  */

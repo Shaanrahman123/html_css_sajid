@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .bg-color {
+    background-color: black;
+} */
+
+.btn-primary {
+    background-color: purple;
+    border-color: purple;
+    padding: 10px 30px;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: purple;
+    border-color: purple;
+}
+
+
+.custom-background {
+    background-color: purple !important;
+}
+
+
+.bg-dark {
+    background-color: #111 !important;
+}
